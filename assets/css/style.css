@@ -1,0 +1,40 @@
+
+body {
+
+	background-color: none;
+}
+
+.container {
+	background-image: url("assets/images/sonicbkgrnd.jpg");
+	width: 100%;
+}
+
+#randomnum {
+	padding: 15px;
+	background-color: #fff;
+}
+#currentguess {
+	padding: 15px;
+	background-color: #F0F8FF;
+}
+
+
+#wins {
+	padding: 15px;
+	background-color: #fff;
+}
+
+#lose {
+	padding: 15px;
+	background-color: #F0F8FF;
+}
+
+#writeout {
+	font-weight: bold;
+	font-size: 2em;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 3em;
+}

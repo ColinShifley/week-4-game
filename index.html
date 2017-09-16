@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Crystal Collector</title>
+
+	
+        
+
+	<link rel="stylesheet" type="text/css" href="assets/css/cssreset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	
+
+</head>
+<body>
+
+	<div class="container">
+		
+		<div class="row">
+			<div class="col-10 jumbotron">
+				
+					<h1 class="text-center">Crystal Collector</h1>
+				
+				<div id="directions">
+						<p class="text-center">
+							You will be given a random number at the start of the game.<br>
+							There are four crystals below. By clicking on a crystal you will add a specific amount to your total score.<br>
+							You win the game by matching your toatl score to the random number.<br>
+							The value og each crystal is hidden from you until you click it.<br>
+							Each time when the game starts, the game will change the values of each crystal.
+						</p>
+				</div>
+				
+				<div class="row">
+					<div class="text-center col-8" id="writeout">Number to guess</div>
+					<div class="text-center col-8" id="randomnum">0</div>
+					<div class="text-center col-8" id="writeout">Current Guess Total</div>
+					<div class="text-center col-8" id="currentguess">0</div>
+					<div class='text-center col-8' id="score">
+						<div class="text-center col-8" id="writeout">wins</div>
+						<div class="text-center col-8" id="wins">0</div>
+						<div class="text-center col-8" id="writeout">loses</div>
+						<div class="text-center col-8" id="lose">0</div>
+					</div>
+				</div>
+				
+				<div id="crystalssection"></div>
+					<div class="row">
+  						<div id="crystal1" class="btn col-xs-6 col-md-3">
+    						<a href="#" class="img-fluid thumbnail">
+      							<img src="assets/images/sonic.jpeg" alt="..." width="100%">
+    						</a>
+  						</div>
+  						<div id="crystal2" class="btn col-xs-6 col-md-3">
+    						<a href="#" class="img-fluid thumbnail">
+      							<img src="assets/images/sonic.jpeg" alt="" width="100%">
+    						</a>
+  						</div>
+  						<div id="crystal3" class="btn col-xs-6 col-md-3">
+    						<a href="#" class="img-fluid thumbnail">
+      							<img src="assets/images/sonic.jpeg" alt="..." width="100%">
+    						</a>
+  						</div>
+  						<div id="crystal4" class="btn col-xs-6 col-md-3">
+    						<a href="#" class="img-fluid thumbnail">
+      							<img src="assets/images/sonic.jpeg" alt="..." width="100%">
+    						</a>
+  						</div>
+
+					</div>
+				
+			</div>
+		</div>
+	</div>
+	
+
+
+
+
+
+		
+
+		<script
+			src="http://code.jquery.com/jquery-3.2.1.min.js"
+			integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			crossorigin="anonymous"></script>
+  		<script>window.jQuery || document.write('<script src="jquery-3.2.1.min.js"><\/script>');</script>
+
+		<script type="text/javascript" src="assets/javascript/Crystals.js"></script>
+
+		
+</body>
+</html>
