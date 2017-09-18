@@ -1,40 +1,48 @@
 
-body {
-
-	background-color: none;
-}
+ body {
+     background-image: url('../images/sonicbkgrnd.jpg');
+     
+ }
+ 
 
 .container {
-	background-image: url("assets/images/sonicbkgrnd.jpg");
-	width: 100%;
+	
+	
 }
 
 #randomnum {
 	padding: 15px;
 	background-color: #fff;
+	font-family: 'Helvetcia Neue';
+	
 }
 #currentguess {
 	padding: 15px;
 	background-color: #F0F8FF;
+	font-family: 'Anton';
 }
 
 
 #wins {
 	padding: 15px;
 	background-color: #fff;
+	font-family: 'Anton';
 }
 
 #lose {
 	padding: 15px;
 	background-color: #F0F8FF;
+	font-family: 'Anton';
 }
 
 #writeout {
 	font-weight: bold;
 	font-size: 2em;
+	font-family: 'Anton';
 }
 
 h1 {
 	font-weight: bold;
 	font-size: 3em;
+	font-family: 'Anton';
 }
