@@ -10,10 +10,14 @@
 	
 }
 
+#directions {
+	font-family: 'Anton';
+}
+
 #randomnum {
 	padding: 15px;
 	background-color: #fff;
-	font-family: 'Helvetcia Neue';
+	font-family: 'Anton';
 	
 }
 #currentguess {
